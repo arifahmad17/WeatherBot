@@ -1,0 +1,77 @@
+version: "3.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  
+
+  - intent: inform
+    entities:
+    - location: "Italy"
+  - slot_was_set:
+      - location: "Italy"
+  - action: action_weather
+        
+  - intent:  goodbye
+  - action:  utter_goodbye
+
+
+- story: path1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  
+  - intent: inform
+    entities:
+    - location: "Berlin"
+  - slot_was_set:
+      - location: "Berlin"
+  - action: action_weather
+
+  - intent:  goodbye
+  - action:  utter_goodbye
+
+- story: path2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  
+  - intent: inform    
+    entities:
+    - location: "Paris"
+  - slot_was_set:
+    - location: "Paris"
+  - action: action_weather
+
+  - intent:  goodbye
+  - action:  utter_goodbye
+
+- story: path3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: inform
+    entities:
+    - location: "Chennai"
+  - slot_was_set:
+    - location: "Chennai"
+  - action: action_weather
+
+  - intent:  goodbye
+  - action:  utter_goodbye
+
+- story: path4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: inform
+    entities:
+    - location: "Dublin"
+  - slot_was_set:
+    - location: "Dublin"
+  - action: action_weather
+  - intent:  goodbye
+  - action:  utter_goodbye

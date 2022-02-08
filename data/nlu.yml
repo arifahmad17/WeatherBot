@@ -1,0 +1,198 @@
+version: "3.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+
+
+
+- intent: inform
+  examples: |
+    - What's the weather in [Berlin](location) at the moment?
+    - What's the weather in [London](location) today?
+    - Show me what's the weather in [Paris](location)
+    - I wonder what is the weather in [Vilnius](location) right now?
+    - Is the weather nice in [Barcelona](location) today?
+    - I am going to [Delhi](location) today and I wonder what is the weather out there?
+    - I am planning my trip to [Amsterdam](location). What is the weather out there?
+    - Show me the weather in [Dublin](location), please
+    - in [Islamabad](location)
+    - weather in [Lithuania](location)
+    - weather  in [Rome](location)
+    - Tell me the weather in [Vilnius](location)
+    - The weather condition in [Milan](location)
+    - hows weather in [Chennai](location)
+    - weather in [Hungary](location)
+    - weather in [Mumbai](location)
+    - Temperature at [Paris](location)
+    - what [Lucknow](location)
+    - temperature in [Lyon](location)
+    - what [Texas](location) Temperature
+    - weather in [Las Vegas](location)
+    - whats weather in [columbia](location)
+    - hows is the weather in [Auckland](location)
+    - hows [Liverpool](location) today
+    - weather in [Manchester](location)
+    -  [Chelsea](location) weather
+    - hows weather in [Arsenal](location)
+    - hows weather in [Leeds](location)
+    - hows weather in [Kolkata](location)
+    - hows weather in [](location)
+    - Hows [Chennai](location) doing today
+    - in [Chennai](location)
+    - Hows [Chennai](location) doing today?
+    - how is [Chennai](location)?
+    - Hows [Paris](location) today?
+    - Temperature in [Goa](location)
+    - Hows weather in [Goa](location)
+    - temperature in [Chennai](location)
+    - Hows weather in [Chennai](location)
+    - Whats the weather in [Chennai](location)
+    - whats the weather in [Chennai](location)
+    - in [Paris](location)
+    - In [Chennai](location)
+    - hows [Mumbai](location)
+    - Weather in (location)
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- synonym: Mumbai
+  examples: |
+    - mumbai
+
+- synonym: Dublin
+  examples: |
+    - dublin
+
+- synonym: Chennai
+  examples: |
+    - chennai
+    - Cheenai
+
+- synonym:  Delhi
+  examples: |
+    - delhi
+
+- synonym: Berlin
+  examples: |
+    - berlin
+
+- synonym: London
+  examples: |
+    - london
+
+
+- synonym: Paris
+  examples: |
+    - paris
+
+
+- synonym: Amsterdam
+  examples: |
+    - amsterdam
+
+- synonym: Vilnius
+  examples: |
+    - vilnius
+
+
+- synonym: Mumbai
+  examples: |
+    - mumbai
+    
+- synonym: Barcelona
+  examples: |
+    - barcelona
+
+- synonym: Hungary
+  examples: |
+    - hungary
+
+- synonym: Italy
+  examples: |
+    - italy
